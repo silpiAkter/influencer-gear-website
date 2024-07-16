@@ -62,7 +62,7 @@
     color: rgb(120, 120, 133);
     line-height: 20px;
     letter-spacing: 1.8%;
-    padding-bottom: 20px;
+
 }
 .subtitle-font{
     font-size: 24px;
@@ -196,6 +196,17 @@
     color: rgb(94, 99, 102);
     margin-left: 10px;
 }
+.btn-secondery{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 24px 16px;
+    margin-top: 20px;
+}
+.btn-2{
+    color: rgb(224, 44, 109);
+    background-color: transparent;
+}
 
 @media screen and (max-width:576px) {
     .header{
@@ -254,6 +265,9 @@
     .sponsor-team img{
         width: 100%;
         text-align: center;
+    }
+    .card-items{
+        grid-template-columns: repeat(1, 1fr);
     }
 
 }
