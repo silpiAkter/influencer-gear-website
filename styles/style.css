@@ -1,0 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* shared sytles */
+.display-flex{
+    display: flex;
+}
+.text-dark{
+    color: rgb(58, 58, 58);
+}
+
+/* header sections styles */
+/* nav styles */
+
+.header{
+    margin: 50px 120px;
+}
+.nav, .nav ul{
+    align-self: center;
+    justify-content: space-between;
+    
+
+}
+.nav ul{
+    list-style: none;
+}
+.nav-title{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+}
+.nav li a{
+    text-decoration: none;
+    margin-left: 50px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.fa-solid{
+    font-size: 1.5rem;
+}
+.cart-products{
+    color: #fff;
+    font-size: .5rem;
+    font-weight: 900;
+    position: absolute;
+    z-index: 1;
+    margin: -6px 0px 0px -10px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: red;
+    text-align: center;
+    
+}
