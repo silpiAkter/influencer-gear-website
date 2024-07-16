@@ -14,6 +14,9 @@
 .text-dark{
     color: rgb(58, 58, 58);
 }
+.text-gryalight{
+    color: rgb(108, 108, 108);
+}
 .title{
     font-size: 50px;
     font-weight: 700;
@@ -208,6 +211,24 @@
     background-color: transparent;
 }
 
+/* features styles */
+.features{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.feature-content{
+    max-width: 600px;
+    padding: 25px 0px;
+    margin: 100px 0px;
+}
+.features-title{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0%;
+}
+
 @media screen and (max-width:576px) {
     .header{
         margin: 10px;
@@ -237,7 +258,7 @@
         
     }
     .main-image{
-        width: 250px;
+        max-width: 250px;
         margin: 10px;
         background-size: 100%;
         background-position: center;
@@ -270,7 +291,12 @@
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .features{
+        flex-direction: column-reverse;
+    }
+
 }
+
 
 @media screen and (min-width:576px) and (max-width:992px) {
     .header{
@@ -294,5 +320,10 @@
         align-items: center;
         justify-content: center;
     }
+    .card-items{
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
     
 }
